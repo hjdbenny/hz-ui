@@ -1,0 +1,21 @@
+{
+  "name": "hz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "hz",
+    "vue3组件库"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "hjd",
+  "license": "MIT",
+  "typings": "lib/index.d.ts"
+}

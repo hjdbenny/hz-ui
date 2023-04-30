@@ -1,5 +1,5 @@
 import { defineComponent as e, computed as l, openBlock as s, createElementBlock as u, normalizeClass as c, unref as p, renderSlot as a } from "vue";
-import "./style/index.scss.mjs";
+import "./style/index.css";
 const m = e({ name: "hz-button" }), d = /* @__PURE__ */ e({
   ...m,
   props: {

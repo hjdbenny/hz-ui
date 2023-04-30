@@ -1,12 +1,12 @@
-import * as t from "./src/index.mjs";
-import { HzButton as s } from "./src/button/index.mjs";
-const n = {
-  install: (o) => {
-    for (let e in t)
-      o.use(t[e]);
+import * as o from "./src/index.mjs";
+import { HzButton as i } from "./src/button/index.mjs";
+const e = {
+  install: (t) => {
+    for (const n in o)
+      t.use(o[n]);
   }
 };
 export {
-  s as HzButton,
-  n as default
+  i as HzButton,
+  e as default
 };
