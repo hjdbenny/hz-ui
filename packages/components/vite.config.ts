@@ -2,7 +2,7 @@
  * @Author: hjd
  * @Date: 2023-04-23 16:39:50
  * @LastEditors: hjd
- * @LastEditTime: 2023-04-30 12:36:26
+ * @LastEditTime: 2023-05-02 00:04:13
  * @Description:
  */
 import { defineConfig } from 'vite';
@@ -18,7 +18,7 @@ export default defineConfig({
     //minify: false,
     rollupOptions: {
       //忽略打包vue文件
-      external: ['vue', /\.scss/],
+      external: ['vue', /\.scss/, 'vue-demi'],
       input: ['index.ts'],
       output: [
         {

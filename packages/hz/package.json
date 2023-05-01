@@ -1,6 +1,6 @@
 {
   "name": "hz-common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "module": "es/index.mjs",
@@ -25,5 +25,17 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/hjdbenny/hz-ui.git"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "vue": "^3.0.0"
   }
 }

@@ -1,3 +1,10 @@
+<!--
+ * @Author: hjd
+ * @Date: 2023-04-23 00:17:58
+ * @LastEditors: hjd
+ * @LastEditTime: 2023-05-01 23:39:17
+ * @Description: 
+-->
 <template>
   <button class="hz-button" :class="buttonStyle">
     <slot></slot>
@@ -10,12 +17,11 @@ export default defineComponent({
 })
 </script> -->
 <script lang="ts" setup>
-import { computed } from 'vue';
+import { computed, isVue2, isVue3 } from 'vue-demi';
 import './style/index.scss';
 
 // eslint-disable-next-line no-undef
 defineOptions({ name: 'hz-button' });
-console.log(111);
 
 // eslint-disable-next-line
 type ButtonProps = {

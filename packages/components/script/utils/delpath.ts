@@ -2,7 +2,7 @@
  * @Author: hjd
  * @Date: 2023-04-30 11:27:12
  * @LastEditors: hjd
- * @LastEditTime: 2023-04-30 11:36:33
+ * @LastEditTime: 2023-05-01 17:40:14
  * @Description: 将前面打包的文件删除
  */
 import fs from 'fs';
@@ -23,6 +23,7 @@ const delPath = async (path: string) => {
       if (fs.statSync(curPath).isDirectory()) {
         // recurse
         if (file != 'node_modules') await delPath(curPath);
+        // await delPath(curPath);
       } else {
         // delete file
         if (!stayFile.includes(file)) {
